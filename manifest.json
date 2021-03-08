@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Fix Franciscan Catering",
+  "description": "A WebExtension to help improve Franciscan's catering website",
+  "version": "0.0.0",
+  "homepage_url": "https://github.com/Franciscan-CS-Club/fix-franciscan-ordering",
+  
+  "content_scripts": [
+    {
+      "matches": [ "*://franciscan-catering.catertrax.com/*" ],
+      "js": [ "scripts/script.js" ]
+    }
+  ],
+  
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+  
+  "permissions": [
+    "*://franciscan-catering.catertrax.com/*"
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "borderify@example.com"
+    }
+  }
+}
