@@ -11,6 +11,11 @@
       "js": [ "scripts/script.js" ]
     }
   ],
+
+  "browser_action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "icons/icon.svg"
+  },
   
   "icons": {
     "48": "icons/icon.svg",
@@ -23,7 +28,7 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "borderify@example.com"
+      "id": "franciscan-catering@example.com"
     }
   }
 }
