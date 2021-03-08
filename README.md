@@ -1,12 +1,12 @@
 # Fix Franciscan Ordering
 
-This is a WebExtension which will make the Franciscan catering website work better, hopefully adding additional features!
+This is a Chrome/Firefox Extension which will make the Franciscan catering website better, hopefully adding additional features!
 
-If you have a feature that you want to add to the website, use [the discussions tab](https://github.com/Franciscan-CS-Club/fix-franciscan-ordering/discussions). If you see a feature you like, upvote it!
+If you have a feature that you want to add to the extension/website, use [the discussions tab](https://github.com/Franciscan-CS-Club/fix-franciscan-ordering/discussions). If you see a feature you like, upvote it!
 
 ---
 
-## Contributing
+## For the pr0gr4mm3r5:
 
 ### Setting up the development environment
 
