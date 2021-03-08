@@ -4,6 +4,7 @@ This is a WebExtension which will make the Franciscan catering website work bett
 
 If you have a feature that you want to add to the website, use [the discussions tab](https://github.com/Franciscan-CS-Club/fix-franciscan-ordering/discussions). If you see a feature you like, upvote it!
 
+---
 
 ## Contributing
 
@@ -23,7 +24,12 @@ You're ready to begin!
 
 ### Making changes
 
-To make changes, first, start a new branch to work at (replacing `branch-name` with a name for the branch):
+To make changes, first, pull any changes from upstream:
+```bash
+git pull upstream main
+```
+
+Then, start a new branch to work at (replacing `branch-name` with a name for the branch):
 ```bash
 git checkout -b branch-name
 git push -u origin branch-name
@@ -36,3 +42,9 @@ git push
 ```
 
 Then, once you've finished making and testing your changes, create a pull request on Github. After being reviewed, your changes will be added!
+
+
+Note - make sure to return to the main branch when you're done!
+```
+git checkout main
+```
