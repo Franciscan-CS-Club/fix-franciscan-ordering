@@ -1,0 +1,6 @@
+div[class*="Button"]:hover {transform:scale(1.05)}
+a[class="addtoorder"]:hover {transform:scale(1.05)}
+a[class="addtoother"]:hover {transform:scale(1.05)}
+div[class*="Button"]:active {transform:scale(0.95)}
+a[class="addtoorder"]:active {transform:scale(0.95)}
+a[class*="addtoorder"]:active {transform:scale(0.95)}
