@@ -1,6 +1,16 @@
-div[class*="Button"]:hover {transform:scale(1.05)}
-a[class="addtoorder"]:hover {transform:scale(1.05)}
-a[class="addtoother"]:hover {transform:scale(1.05)}
-div[class*="Button"]:active {transform:scale(0.95)}
-a[class="addtoorder"]:active {transform:scale(0.95)}
-a[class*="addtoorder"]:active {transform:scale(0.95)}
+div[class*="Button"] {background:#215732}
+.addtoorder {background:#215732}
+.addtoother {background:#215732}
+.cartOutBut {background:#215732}
+div[class*="Button"]:hover {transform:scale(1.05); background:#256138}
+.addtoorder:hover {transform:scale(1.05); background:#256138}
+.addtoother:hover {transform:scale(1.05); background:#256138}
+.cartOutBut:hover {transform:scale(1.05); background:#256138}
+div[class*="Button"]:active {transform:scale(0.95); background:#173d23}
+.addtoorder:active {transform:scale(0.95); background:#173d23; border: 3px black}
+.addtoother:active {transform:scale(0.95); background:#173d23; border: 3px black}
+.cartOutBut:active {transform:scale(0.95); background:#173d23; border: 3px black}
+.spClose {background: rgb(200, 200, 200); border: 2px outset black; border-radius: 5px}
+.spClose:hover {background: rgb(215,215,215)}
+.spClose:active {transform: scale(0.95)}
+#divErrors {border-radius: 8px}
