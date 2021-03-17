@@ -1,0 +1,34 @@
+/*All buttons - default state*/
+*[class*="ActionButton"],
+*[class*="standardButton"],
+*[class*="CTXMenuSelection"],
+.addtoorder,
+.addtoother,
+.cartOutBut {background-color:#215732; transition: 0.5s !important;}
+
+/*All buttons - hover*/
+*[class*="ActionButton"]:hover,
+*[class*="standardButton"]:hover,
+*[class*="CTXMenuSelection"]:hover,
+.addtoorder:hover,
+.addtoother:hover,
+.cartOutBut:hover {transform:scale(1.05); background-color:#2e6840 !important; transition:0.5s !important}
+
+/*All buttons - pressed*/
+*[class*="ActionButton"]:active,
+*[class*="standardButton"]:active,
+*[class*="CTXMenuSelection"]:active,
+.addtoorder:active,
+.addtoother:active,
+.cartOutBut:active {transform:scale(0.95); background-color:#11301b !important; transition: 0.02s !important; border: 3px black}
+
+/*Add a much-needed line break after the "Weekly Specials are available only from Monday to Thursday" message*/
+#alternate_cat_description::after {white-space: pre; content: "\a"}
+
+/*Close button for error message box*/
+.spClose {background: rgb(200, 200, 200); border: 2px outset black; border-radius: 5px}
+.spClose:hover {background: rgb(215,215,215)}
+.spClose:active {transform: scale(0.95)}
+
+/*Error message box*/
+#divErrors {border-radius: 8px}
