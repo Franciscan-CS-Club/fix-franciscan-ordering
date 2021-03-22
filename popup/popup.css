@@ -1,19 +1,15 @@
-p {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-}
-
 body {
-    min-width: 295px; /* your desired width */
+    min-width: 338px; /* your desired width */
     max-width: 100%;
     position: relative;
     vertical-align:middle;
+    font-family:Open sans;
 }
 
 /* Style for menu */
 .simplemodal-wrap .menulist,
 .simplemodal-wrap #loadmenudialog {
- font-family:Open sans
+ font-family:Open sans;
 }
 .simplemodal-wrap .menulist div #modalSelectorLabel,
 .simplemodal-wrap #loadmenudialog div #modalSelectorLabel {
