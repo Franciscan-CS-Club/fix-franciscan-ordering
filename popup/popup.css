@@ -2,3 +2,84 @@ p {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
 }
+
+.simplemodal-wrap .menulist,
+.simplemodal-wrap #loadmenudialog {
+ font-family:Open sans
+}
+.simplemodal-wrap .menulist div #modalSelectorLabel,
+.simplemodal-wrap #loadmenudialog div #modalSelectorLabel {
+ background-color:#FFF;
+ color:gray;
+ font-weight:bold;
+ font-size:24px;
+ padding:10px;
+ border-bottom:2px solid gray;
+ width:70%;
+ margin:20px auto
+}
+.simplemodal-wrap .menulist .menuModalSpan,
+.simplemodal-wrap #loadmenudialog .menuModalSpan {
+ font-size:16px;
+ color:#4d4d4f;
+ font-weight:bold;
+ padding:10px;
+ width:70%;
+ display:inline-block
+}
+.simplemodal-wrap .menulist .CTXMenuSelection,
+.simplemodal-wrap .menulist .CTXMenuSelection:link,
+.simplemodal-wrap .menulist .CTXMenuSelection:active,
+.simplemodal-wrap .menulist .CTXMenuSelection:visited,
+.simplemodal-wrap #loadmenudialog .CTXMenuSelection,
+.simplemodal-wrap #loadmenudialog .CTXMenuSelection:link,
+.simplemodal-wrap #loadmenudialog .CTXMenuSelection:active,
+.simplemodal-wrap #loadmenudialog .CTXMenuSelection:visited {
+ background:#4582a9;
+ border-radius:5px;
+ border:1px solid #4582a9;
+ display:inline-block;
+ color:#FFF;
+ font-size:16px;
+ font-style:normal;
+ height:auto;
+ line-height:15px;
+ width:auto;
+ text-decoration:none;
+ text-align:center;
+ padding:5px 10px;
+ font-size:16px;
+ display:block;
+ *display:inline;
+ width:70%;
+ margin:auto auto 20px;
+ padding:10px
+}
+.simplemodal-wrap .menulist .CTXMenuSelection:hover,
+.simplemodal-wrap #loadmenudialog .CTXMenuSelection:hover {
+ background:#35af4a;
+ color:#FFF;
+ border:1px solid #35af4a;
+ text-decoration:none;
+ transition-property:background;
+ transition-duration:0.2s;
+ transition-delay:0s
+}
+
+
+
+
+	/************************************
+	Banner and Button Color
+	************************************/
+	.simplemodal-wrap .menulist .CTXMenuSelection,
+	.simplemodal-wrap .menulist .CTXMenuSelection:link,
+	.simplemodal-wrap .menulist .CTXMenuSelection:active,
+	.simplemodal-wrap .menulist .CTXMenuSelection:visited,
+	.simplemodal-wrap #loadmenudialog .CTXMenuSelection, 
+	.simplemodal-wrap #loadmenudialog .CTXMenuSelection:link,
+	.simplemodal-wrap #loadmenudialog .CTXMenuSelection:active,
+	.simplemodal-wrap #loadmenudialog .CTXMenuSelection:visited
+	{
+		background: #215732;
+	}

@@ -27,4 +27,3 @@ function clearCart() {
         window.location.href = remove_button[0];
     }
 }
-
