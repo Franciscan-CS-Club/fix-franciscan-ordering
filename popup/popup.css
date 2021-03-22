@@ -3,6 +3,13 @@ p {
     font-weight: bold;
 }
 
+body {
+    min-width: 295px; /* your desired width */
+    max-width: 100%;
+    position: relative;
+    vertical-align:middle;
+}
+
 /* Style for menu */
 .simplemodal-wrap .menulist,
 .simplemodal-wrap #loadmenudialog {
@@ -80,3 +87,8 @@ Banner and Button Color
 {
     background: #215732;
 }
+
+/* Animate Buttons */
+.CTXMenuSelection:hover {transform:scale(1.05); background-color:#2e6840 !important; transition:0.5s !important}
+.CTXMenuSelection:active {transform:scale(0.95); background-color:#11301b !important; transition: 0.02s !important; border: 3px black}
+.CTXMenuSelection {background-color:#215732; transition: 0.5s !important;}
