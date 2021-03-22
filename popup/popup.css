@@ -3,6 +3,7 @@ p {
     font-weight: bold;
 }
 
+/* Style for menu */
 .simplemodal-wrap .menulist,
 .simplemodal-wrap #loadmenudialog {
  font-family:Open sans
@@ -61,25 +62,21 @@ p {
  color:#FFF;
  border:1px solid #35af4a;
  text-decoration:none;
- transition-property:background;
  transition-duration:0.2s;
  transition-delay:0s
 }
 
-
-
-
-	/************************************
-	Banner and Button Color
-	************************************/
-	.simplemodal-wrap .menulist .CTXMenuSelection,
-	.simplemodal-wrap .menulist .CTXMenuSelection:link,
-	.simplemodal-wrap .menulist .CTXMenuSelection:active,
-	.simplemodal-wrap .menulist .CTXMenuSelection:visited,
-	.simplemodal-wrap #loadmenudialog .CTXMenuSelection, 
-	.simplemodal-wrap #loadmenudialog .CTXMenuSelection:link,
-	.simplemodal-wrap #loadmenudialog .CTXMenuSelection:active,
-	.simplemodal-wrap #loadmenudialog .CTXMenuSelection:visited
-	{
-		background: #215732;
-	}
+/************************************
+Banner and Button Color
+************************************/
+.simplemodal-wrap .menulist .CTXMenuSelection,
+.simplemodal-wrap .menulist .CTXMenuSelection:link,
+.simplemodal-wrap .menulist .CTXMenuSelection:active,
+.simplemodal-wrap .menulist .CTXMenuSelection:visited,
+.simplemodal-wrap #loadmenudialog .CTXMenuSelection, 
+.simplemodal-wrap #loadmenudialog .CTXMenuSelection:link,
+.simplemodal-wrap #loadmenudialog .CTXMenuSelection:active,
+.simplemodal-wrap #loadmenudialog .CTXMenuSelection:visited
+{
+    background: #215732;
+}
