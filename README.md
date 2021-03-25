@@ -9,8 +9,8 @@ We are not associated with Parkhurst or Catertrax in any way, nor do they endors
 
 
 # Features currently implemented:
-- Change checkboxes (which usually allow multiple selections) into radio buttons (which only allow one selection)
-- Added small animations and quality of life improvements
+- Change checkboxes (which usually allow multiple selections) into radio buttons (which only allow one selection) - @AaronBangs
+- Added small animations and quality of life improvements - @TJJP
 
 ---
 
