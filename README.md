@@ -6,6 +6,12 @@ If you have a feature that you want to add to the extension/website, use [the di
 
 We are not associated with Parkhurst or Catertrax in any way, nor do they endorse this extension! Use it at your own risk!
 
+
+
+# Features currently implemented:
+- Change checkboxes (which usually allow multiple selections) into radio buttons (which only allow one selection) - [@TJJP](https://github.com/TJJP)
+- Added small animations and quality of life improvements - [@AaronBangs](https://github.com/AaronBangs)
+
 ---
 
 ## For the pr0gr4mm3r5:
