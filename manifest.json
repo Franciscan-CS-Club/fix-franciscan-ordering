@@ -8,7 +8,7 @@
   "content_scripts": [
     {
       "matches": [ "*://franciscan-catering.catertrax.com/*" ],
-      "js": [ "script.js" ],
+      "js": ["thirdParty/jquery-3.6.0.min.js","script.js" ],
       "css": [ "style.css" ]
     }
   ],

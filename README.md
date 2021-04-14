@@ -11,6 +11,7 @@ We are not associated with Parkhurst or Catertrax in any way, nor do they endors
 # Features currently implemented:
 - Change checkboxes (which usually allow multiple selections) into radio buttons (which only allow one selection) - [@TJJP](https://github.com/TJJP)
 - Added small animations and quality of life improvements - [@AaronBangs](https://github.com/AaronBangs)
+- Changed text boxes to dropdown menus for ordering food with numbers - [@TJJP](https://github.com/TJJP)
 
 ---
 

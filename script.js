@@ -3,8 +3,8 @@ var iconurl = chrome.runtime.getURL("icons/burger.png");
 favicons = document.querySelectorAll('[rel="SHORTCUT ICON"], [rel="apple-touch-icon"], [rel="shortcut icon"]');
 favicons.forEach(favicon => favicon.href = iconurl);
 
+//Change check boxes to radio buttons
 function setRadialButtons() {
-    //Change check boxes to radio buttons
     feature_boxes = document.getElementsByClassName("featureset");
 
     for (let i = 0; i < feature_boxes.length; i++) {
@@ -40,10 +40,37 @@ function clearCart() {
 window.onhashchange = function()
 {
     setRadialButtons();
+    setDropDownNumber();
 }
 
 //Called every time the page is loaded
 window.onload = function()
 {
     setRadialButtons(); //Needs to be in both on the off chance someone reloads the page while in the order screen
+    setDropDownNumber();
+}
+
+// Change number input to dropdown
+function setDropDownNumber(){
+
+    feature_boxes = document.getElementsByClassName("featureitemlist")
+    var a = document.getElementsByClassName('featurecontrol control--qty notrequired');
+    var src, el, attrs;
+    for(var i=0,l=a.length;i<l;i++) {
+        src = a[i];
+        el = document.createElement('select');
+        attrs = src.attributes;
+        for(var j=0,k=attrs.length;j<k;j++) {
+            el.setAttribute(attrs[j].name, attrs[j].value);
+        }
+        el.innerHTML = src.innerHTML;
+        src.parentNode.replaceChild(el, src);
+        a[i].removeAttribute("size");
+        var attStyle = document.createAttribute("style");        // Create a "href" attribute
+        attStyle.value = "width:40px";
+        a[i].setAttributeNode(attStyle); 
+    }
+    for (var o="";o<=10;o++){
+        $("select").append($('<option></option>').val(o).html(o))
+    }
 }
