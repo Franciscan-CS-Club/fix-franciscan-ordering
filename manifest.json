@@ -19,8 +19,7 @@
   },
   
   "icons": {
-    "48": "icons/burger.png",
-    "96": "icons/burger.png"
+    "36": "icons/burger.png",
   },
 
   "web_accessible_resources": [
